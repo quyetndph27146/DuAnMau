@@ -184,7 +184,7 @@ public class FrmChiTietSP extends javax.swing.JFrame {
             try {
                 giaBan = Float.valueOf(giaBanString);
             } catch (Exception e) {
-                JOptionPane.showMessageDialog(this, "giaBan Kiểu dữ liệu số,bạn nhập sai kiểu dữ liệu");
+                JOptionPane.showMessageDialog(this, "giaBan Kiểu dữ liệu số");
                 return null;
             }
         }
